@@ -1,0 +1,7 @@
+full_name,dataset_source,snapshot_age_days,snapshot_days_since_push,screening_basis,nonmerge_commits_90d,commit_coverage,independent_evidence,review_status
+python-hyper/h11,teammate_good,3812.469725282673,529.8737877826736,existing label=1; provisional age threshold; descending push recency,,not_collected,,unverified; user review required before inclusion
+Textualize/rich,teammate_good,2522.2079428752663,105.72032713452546,existing label=1; provisional age threshold; descending push recency,,not_collected,,unverified; user review required before inclusion
+BurntSushi/ripgrep,teammate_good,3861.76738731971,63.26934333822916,existing label=1; provisional age threshold; descending push recency,,not_collected,,unverified; user review required before inclusion
+rust-lang/regex,teammate_good,4316.991970653044,57.1723178752662,existing label=1; provisional age threshold; descending push recency,,not_collected,,unverified; user review required before inclusion
+pallets/flask,original_good,6027.385836393784,28.157433616006948,existing label=1; provisional age threshold; descending push recency,,not_collected,,unverified; user review required before inclusion
+microsoft/ML-For-Beginners,original_good,2043.7871558382294,21.623567875266204,existing label=1; provisional age threshold; descending push recency,,not_collected,,unverified; user review required before inclusion

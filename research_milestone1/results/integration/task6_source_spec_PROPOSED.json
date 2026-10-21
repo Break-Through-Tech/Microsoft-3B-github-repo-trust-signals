@@ -1,0 +1,198 @@
+{
+  "name": "ethan_temporal",
+  "owner": "Ethan",
+  "file": "temporal_features_staging.csv",
+  "covers_tasks": [
+    "task1"
+  ],
+  "columns": {
+    "repo_id": "repo_id",
+    "collected_at": "collected_at"
+  },
+  "ignore_columns": [
+    "github_repo_id",
+    "review_status"
+  ],
+  "features": {
+    "temporal__pre_median_weekly_commits": {
+      "dtype": "number",
+      "min": 0,
+      "unit": "commits/week",
+      "description": "Median of four complete pre-peak UTC weeks of root/one-parent commits reachable from the frozen head; null if any baseline week is ineligible."
+    },
+    "temporal__post_median_weekly_commits_8w": {
+      "dtype": "number",
+      "min": 0,
+      "unit": "commits/week",
+      "description": "Median of eight complete follow-up UTC weekly non-merge counts; null if the full follow-up is unobserved."
+    },
+    "temporal__post_pre_commit_ratio": {
+      "dtype": "number",
+      "min": 0,
+      "unit": "ratio",
+      "description": "Eight-week post median / four-week pre median; requires both complete windows and positive pre median. Not a trust score."
+    },
+    "temporal__post_active_week_share_8w": {
+      "dtype": "number",
+      "min": 0,
+      "unit": "fraction",
+      "description": "Number of complete follow-up weeks with positive non-merge counts divided by eight; null unless all eight weeks are observed."
+    },
+    "temporal__peak_week_nonmerge_commits": {
+      "dtype": "integer",
+      "min": 0,
+      "unit": "commits",
+      "description": "Unique root/one-parent commits reachable from frozen head with UTC committer timestamp in the nominal peak week [start,end)."
+    },
+    "temporal__issue_opened_pre_4w_count": {
+      "dtype": "integer",
+      "min": 0,
+      "unit": "events",
+      "description": "Current GitHub search-index issue creations excluding PRs; count within explicit start-inclusive/end-exclusive UTC window; ineligible or incomplete source coverage remains null."
+    },
+    "temporal__issue_opened_pre_4w_per_week": {
+      "dtype": "number",
+      "min": 0,
+      "unit": "events/week",
+      "description": "Current GitHub search-index issue creations excluding PRs; divided by nominal window weeks only for a full eligible period."
+    },
+    "temporal__pr_opened_pre_4w_count": {
+      "dtype": "integer",
+      "min": 0,
+      "unit": "events",
+      "description": "Current GitHub search-index PR creations, not merges; count within explicit start-inclusive/end-exclusive UTC window; ineligible or incomplete source coverage remains null."
+    },
+    "temporal__pr_opened_pre_4w_per_week": {
+      "dtype": "number",
+      "min": 0,
+      "unit": "events/week",
+      "description": "Current GitHub search-index PR creations, not merges; divided by nominal window weeks only for a full eligible period."
+    },
+    "temporal__issue_opened_peak_1w_count": {
+      "dtype": "integer",
+      "min": 0,
+      "unit": "events",
+      "description": "Current GitHub search-index issue creations excluding PRs; count within explicit start-inclusive/end-exclusive UTC window; ineligible or incomplete source coverage remains null."
+    },
+    "temporal__issue_opened_peak_1w_per_week": {
+      "dtype": "number",
+      "min": 0,
+      "unit": "events/week",
+      "description": "Current GitHub search-index issue creations excluding PRs; divided by nominal window weeks only for a full eligible period."
+    },
+    "temporal__pr_opened_peak_1w_count": {
+      "dtype": "integer",
+      "min": 0,
+      "unit": "events",
+      "description": "Current GitHub search-index PR creations, not merges; count within explicit start-inclusive/end-exclusive UTC window; ineligible or incomplete source coverage remains null."
+    },
+    "temporal__pr_opened_peak_1w_per_week": {
+      "dtype": "number",
+      "min": 0,
+      "unit": "events/week",
+      "description": "Current GitHub search-index PR creations, not merges; divided by nominal window weeks only for a full eligible period."
+    },
+    "temporal__issue_opened_post_8w_count": {
+      "dtype": "integer",
+      "min": 0,
+      "unit": "events",
+      "description": "Current GitHub search-index issue creations excluding PRs; count within explicit start-inclusive/end-exclusive UTC window; ineligible or incomplete source coverage remains null."
+    },
+    "temporal__issue_opened_post_8w_per_week": {
+      "dtype": "number",
+      "min": 0,
+      "unit": "events/week",
+      "description": "Current GitHub search-index issue creations excluding PRs; divided by nominal window weeks only for a full eligible period."
+    },
+    "temporal__pr_opened_post_8w_count": {
+      "dtype": "integer",
+      "min": 0,
+      "unit": "events",
+      "description": "Current GitHub search-index PR creations, not merges; count within explicit start-inclusive/end-exclusive UTC window; ineligible or incomplete source coverage remains null."
+    },
+    "temporal__pr_opened_post_8w_per_week": {
+      "dtype": "number",
+      "min": 0,
+      "unit": "events/week",
+      "description": "Current GitHub search-index PR creations, not merges; divided by nominal window weeks only for a full eligible period."
+    },
+    "temporal__releases_pre_4w_count": {
+      "dtype": "integer",
+      "min": 0,
+      "unit": "events",
+      "description": "Currently visible public non-draft GitHub releases by published_at, including prereleases; not tags; count within explicit start-inclusive/end-exclusive UTC window; ineligible or incomplete source coverage remains null."
+    },
+    "temporal__releases_pre_4w_per_week": {
+      "dtype": "number",
+      "min": 0,
+      "unit": "events/week",
+      "description": "Currently visible public non-draft GitHub releases by published_at, including prereleases; not tags; divided by nominal window weeks only for a full eligible period."
+    },
+    "temporal__releases_peak_1w_count": {
+      "dtype": "integer",
+      "min": 0,
+      "unit": "events",
+      "description": "Currently visible public non-draft GitHub releases by published_at, including prereleases; not tags; count within explicit start-inclusive/end-exclusive UTC window; ineligible or incomplete source coverage remains null."
+    },
+    "temporal__releases_peak_1w_per_week": {
+      "dtype": "number",
+      "min": 0,
+      "unit": "events/week",
+      "description": "Currently visible public non-draft GitHub releases by published_at, including prereleases; not tags; divided by nominal window weeks only for a full eligible period."
+    },
+    "temporal__releases_post_8w_count": {
+      "dtype": "integer",
+      "min": 0,
+      "unit": "events",
+      "description": "Currently visible public non-draft GitHub releases by published_at, including prereleases; not tags; count within explicit start-inclusive/end-exclusive UTC window; ineligible or incomplete source coverage remains null."
+    },
+    "temporal__releases_post_8w_per_week": {
+      "dtype": "number",
+      "min": 0,
+      "unit": "events/week",
+      "description": "Currently visible public non-draft GitHub releases by published_at, including prereleases; not tags; divided by nominal window weeks only for a full eligible period."
+    },
+    "temporal__forks_pre_4w_count": {
+      "dtype": "integer",
+      "min": 0,
+      "unit": "events",
+      "description": "Currently visible API-listed forks by created_at, only when the period is fully reached; not all historical forks; count within explicit start-inclusive/end-exclusive UTC window; ineligible or incomplete source coverage remains null."
+    },
+    "temporal__forks_pre_4w_per_week": {
+      "dtype": "number",
+      "min": 0,
+      "unit": "events/week",
+      "description": "Currently visible API-listed forks by created_at, only when the period is fully reached; not all historical forks; divided by nominal window weeks only for a full eligible period."
+    },
+    "temporal__forks_peak_1w_count": {
+      "dtype": "integer",
+      "min": 0,
+      "unit": "events",
+      "description": "Currently visible API-listed forks by created_at, only when the period is fully reached; not all historical forks; count within explicit start-inclusive/end-exclusive UTC window; ineligible or incomplete source coverage remains null."
+    },
+    "temporal__forks_peak_1w_per_week": {
+      "dtype": "number",
+      "min": 0,
+      "unit": "events/week",
+      "description": "Currently visible API-listed forks by created_at, only when the period is fully reached; not all historical forks; divided by nominal window weeks only for a full eligible period."
+    },
+    "temporal__forks_post_8w_count": {
+      "dtype": "integer",
+      "min": 0,
+      "unit": "events",
+      "description": "Currently visible API-listed forks by created_at, only when the period is fully reached; not all historical forks; count within explicit start-inclusive/end-exclusive UTC window; ineligible or incomplete source coverage remains null."
+    },
+    "temporal__forks_post_8w_per_week": {
+      "dtype": "number",
+      "min": 0,
+      "unit": "events/week",
+      "description": "Currently visible API-listed forks by created_at, only when the period is fully reached; not all historical forks; divided by nominal window weeks only for a full eligible period."
+    },
+    "temporal__nonmerge_commits_90d": {
+      "dtype": "integer",
+      "min": 0,
+      "unit": "commits",
+      "description": "Exact unique root/one-parent commit count in the frozen 90-day UTC window, only with complete reachable-history verification; lower bounds are null here."
+    }
+  }
+}
