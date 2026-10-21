@@ -1,4 +1,6 @@
-# AI Studio Challenge Project Title
+# GitHub Repository Trust Signals
+
+Ethan's temporal and low-activity research is available in [research_milestone1](research_milestone1/README.md), including [findings and charts](research_milestone1/FINDINGS.md), tested collection and analysis code, and proposed integration tables. The remaining sections below are the original team README template.
 
 > 💡 **Note for the team:** This is just a template. Update the above title with your AI Studio Challenge Project name. Remove all guidance notes and example text in this template and populate this README with your own content. You can work on this README throughout AI Studio, and get feedback from your AI Studio Coach and Challenge Advisor before finalizing it.  
 
