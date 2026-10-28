@@ -9,3 +9,15 @@ class Repo(BaseModel):
     full_name: str
     stargazers_count: int
     forks_count: int
+
+
+class Contributor(BaseModel):
+    """One entry from the repository contributors endpoint.
+
+    ``contributions`` is the number of commits on the default branch. Anonymous
+    contributors are not represented, because they have no login to follow across repositories.
+    """
+
+    login: str
+    contributions: int
+    type: str = "User"
