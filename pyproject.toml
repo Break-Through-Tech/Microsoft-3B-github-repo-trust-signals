@@ -7,8 +7,13 @@ authors = []
 requires-python = ">=3.13"
 dependencies = [
     "aiohttp>=3.14",
+    "numpy>=2.5",
+    "pandas>=3.1",
     "pydantic>=2.13",
 ]
+
+[project.scripts]
+gh-signals = "gh_signals.cli:main"
 
 [dependency-groups]
 dev = [

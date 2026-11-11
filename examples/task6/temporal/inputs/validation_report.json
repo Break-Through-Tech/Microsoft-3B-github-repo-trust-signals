@@ -1,0 +1,21 @@
+{
+  "base_rows": 166,
+  "merge_preview_rows": 166,
+  "base_labels_unchanged": true,
+  "base_order_preserved": true,
+  "measured_repository_rows": 9,
+  "long_feature_rows": 93,
+  "candidate_feature_columns": 30,
+  "resolved_identities": 13,
+  "aliases": 1,
+  "outside_base_review_rows": 7,
+  "pilot_repositories_matching_frozen_base": 0,
+  "base_repositories_with_any_observed_temporal_value": 2,
+  "nulls_imputed": false,
+  "models_run": false,
+  "new_labels_assigned": false,
+  "canonical_dataset_changed": false,
+  "team_contract_confirmed": false,
+  "model_ready": false,
+  "status": "VALIDATED_STAGING_REQUIRES_OWNER_REVIEW"
+}

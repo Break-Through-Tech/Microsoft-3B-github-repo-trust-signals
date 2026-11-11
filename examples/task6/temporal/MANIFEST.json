@@ -1,0 +1,82 @@
+[
+  {
+    "path": "evidence/candidate_results.json",
+    "bytes": 7035,
+    "sha256": "611c289abf2a25ad9e7a0914e2b42bf4e637d94d06188f569468129678001851"
+  },
+  {
+    "path": "evidence/engagement.csv",
+    "bytes": 8592,
+    "sha256": "52bcd1e5b0a630f95c46040f7a03989c15d23627a389a9553d2122115a481af9"
+  },
+  {
+    "path": "evidence/pilot_features.csv",
+    "bytes": 1280,
+    "sha256": "0456120d431789ae61cfca5037f4bb2e5e3d9411470ed62e8b1734b957315e62"
+  },
+  {
+    "path": "evidence/pilot_weeks.csv",
+    "bytes": 11450,
+    "sha256": "8fb525099ed74ac5cba1d15517f27474caa558b96e298e9ec158ab540ebeea6a"
+  },
+  {
+    "path": "inputs/INTEGRATION_GUIDE.md",
+    "bytes": 7359,
+    "sha256": "10315f2d991107433449f2872394dc33b097da08a2ab17de1417a1ac3cba8102"
+  },
+  {
+    "path": "inputs/alias_crosswalk.csv",
+    "bytes": 120,
+    "sha256": "66ca7ce451426c6693e83795771541fb56b3f42f00f5ec6c8e3cf02032c379a5"
+  },
+  {
+    "path": "inputs/base_identity_crosswalk.csv",
+    "bytes": 7997,
+    "sha256": "f01edb07b985fa18856c112147ad1e5d45b77c982b0d7dab2f2b7246d3c465c8"
+  },
+  {
+    "path": "inputs/coverage_summary.csv",
+    "bytes": 1539,
+    "sha256": "3ca55d9c5cce33ca60d36d08106875e1bb35cb48a8c27fd23056353b5e39e2b8"
+  },
+  {
+    "path": "inputs/feature_dictionary.csv",
+    "bytes": 10926,
+    "sha256": "cb293568ad849ff83f4c2b66f500a7829c36dac39a1d7004108775c8147acd19"
+  },
+  {
+    "path": "inputs/frozen_repositories_REFERENCE.csv",
+    "bytes": 57680,
+    "sha256": "df7f4dc3f4ba0f9aaac3fad55e98535652435ce271929122b23e4d8e75b19788"
+  },
+  {
+    "path": "inputs/identity_registry.csv",
+    "bytes": 836,
+    "sha256": "3600f40a13a8bfefe546478578169a6d7bf7b073a246f7dcbce3ef1c74523d7e"
+  },
+  {
+    "path": "inputs/outside_base_review.csv",
+    "bytes": 639,
+    "sha256": "1977f685e03b3287404cef16c74609e196cb5f2fff025257f96fb5a76fea28cf"
+  },
+  {
+    "path": "inputs/task6_source_spec_PROPOSED.json",
+    "bytes": 9708,
+    "sha256": "0459af9a3e42eb2ad2fca832a1006a1d6a9facd3bdb550a52feef317da3c6139"
+  },
+  {
+    "path": "inputs/temporal_features_long.csv",
+    "bytes": 27971,
+    "sha256": "0e6b901437ec6cfa39cec8f31ab6f950b5adf0d0ab9041b29b23e5379c01a777"
+  },
+  {
+    "path": "inputs/temporal_features_staging.csv",
+    "bytes": 2455,
+    "sha256": "6095feb20ead0e3c3718115ff63c442d46f67ac9282712c0c6da229846b6a1f5"
+  },
+  {
+    "path": "inputs/validation_report.json",
+    "bytes": 650,
+    "sha256": "0a6c33a28f3b35d419c88972ec34fdf761ba693416cd2a3b905dce86a05945ff"
+  }
+]

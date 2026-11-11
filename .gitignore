@@ -2,6 +2,7 @@
 notes/
 data/StarScout/
 .cache/
+runs/
 
 # Common
 .DS_Store

@@ -1,0 +1,111 @@
+{
+  "allowed_labels": [
+    "good",
+    "uncertain"
+  ],
+  "candidate_lists": [
+    {
+      "columns": {
+        "repo_id": "repo"
+      },
+      "file": "additional_good_repo_candidates(2).csv",
+      "proposed_label": "good"
+    }
+  ],
+  "canonical": null,
+  "canonical_confirmed": false,
+  "contract_confirmed": false,
+  "feature_sources": [
+    {
+      "columns": {
+        "label": "label",
+        "repo_id": "full_name"
+      },
+      "covers_tasks": [],
+      "features": {
+        "contributor_count": {
+          "description": "Contributor records in the first API page, capped at 100; not a total",
+          "dtype": "integer",
+          "max": 100,
+          "min": 0,
+          "unit": "sampled contributors"
+        },
+        "days_since_last_merge": {
+          "description": "Days since most recent merged PR within the sample at source execution",
+          "dtype": "number",
+          "min": 0,
+          "unit": "days"
+        },
+        "days_since_push": {
+          "description": "Push recency as already computed in Zara's notebook",
+          "dtype": "integer",
+          "min": 0,
+          "unit": "days"
+        },
+        "forks": {
+          "description": "Existing GitHub forks snapshot",
+          "dtype": "integer",
+          "min": 0,
+          "unit": "forks"
+        },
+        "issue_close_rate": {
+          "description": "Closed share of sampled issues after PRs are removed from the first 50-record page",
+          "dtype": "number",
+          "max": 1,
+          "min": 0,
+          "unit": "fraction"
+        },
+        "pr_merge_count": {
+          "description": "Merged pull requests in the first 50-record API page",
+          "dtype": "integer",
+          "max": 50,
+          "min": 0,
+          "unit": "sampled PRs"
+        },
+        "repo_age_days": {
+          "description": "Repository age as already computed in Zara's notebook",
+          "dtype": "integer",
+          "min": 0,
+          "unit": "days"
+        },
+        "star_fork_ratio": {
+          "description": "Existing stars / (forks + 1) value from Zara's notebook",
+          "dtype": "number",
+          "min": 0,
+          "unit": "ratio"
+        },
+        "stars": {
+          "description": "Existing GitHub stargazers snapshot",
+          "dtype": "integer",
+          "min": 0,
+          "unit": "stars"
+        }
+      },
+      "file": "features.csv",
+      "ignore_columns": [
+        "y_good",
+        "score_0_100",
+        "created_at",
+        "pushed_at"
+      ],
+      "name": "zara_baseline",
+      "owner": "Zara"
+    }
+  ],
+  "repository_lists": [
+    {
+      "columns": {
+        "repo_id": "repo"
+      },
+      "file": "good_repos(1).csv",
+      "label": "good"
+    },
+    {
+      "columns": {
+        "repo_id": "repo"
+      },
+      "file": "uncertain(1).csv",
+      "label": "uncertain"
+    }
+  ]
+}
