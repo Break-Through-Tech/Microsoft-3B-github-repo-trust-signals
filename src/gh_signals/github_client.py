@@ -41,6 +41,7 @@ class GitHubClient:
         cache_dir: Path | None = DEFAULT_CACHE_DIR,
         cache_ttl_seconds: float = 24 * 60 * 60,
         min_remaining: int = 10,
+        max_wait_seconds: float = 60,
     ) -> None:
         """Initializes the client.
 
@@ -49,6 +50,7 @@ class GitHubClient:
             cache_dir: Directory for cached responses. Pass ``None`` to disable caching.
             cache_ttl_seconds: How long a cached response stays fresh. Defaults to 24 hours.
             min_remaining: How many requests to leave unused before waiting for the hourly quota to reset. Useful to prevent totally exhausting your GitHub usage.
+            max_wait_seconds: Reject longer rate-limit waits so CLI runs finish predictably.
         """
         self._token = token
         self._cache_dir = cache_dir
@@ -57,6 +59,14 @@ class GitHubClient:
         self._remaining = min_remaining + 1  # Unknown until the first response arrives.
         self._reset_at = 0.0
         self._session: aiohttp.ClientSession | None = None
+        self._max_wait_seconds = max_wait_seconds
+        self._requests = 0
+        self._cache_hits = 0
+        self._wait_seconds = 0.0
+
+    def usage(self) -> dict[str, int | float]:
+        """Return HTTP attempts, cache hits and rate-limit wait time for this client."""
+        return {"requests": self._requests, "cache_hits": self._cache_hits, "wait_seconds": self._wait_seconds}
 
     async def get_repo(self, repo: str) -> Repo:
         """Fetches the star and fork counts for a repository.
@@ -78,7 +88,7 @@ class GitHubClient:
         token = await self._resolve_token()
         if token is not None:
             headers["Authorization"] = f"Bearer {token}"
-        self._session = aiohttp.ClientSession(headers=headers)
+        self._session = aiohttp.ClientSession(headers=headers, timeout=aiohttp.ClientTimeout(total=30))
         return self
 
     async def _resolve_token(self) -> str | None:
@@ -99,6 +109,7 @@ class GitHubClient:
         """Returns the JSON payload for an API path, from cache when it is still fresh."""
         cached = self._read_cache(path)
         if cached is not None:
+            self._cache_hits += 1
             return cached
         payload = await self._request(path)
         self._write_cache(path, payload)
@@ -111,11 +122,12 @@ class GitHubClient:
             raise RuntimeError("Use GitHubClient as an async context manager: async with GitHubClient() as client")
 
         await self._wait_for_quota()
+        self._requests += 1
         async with session.get(f"{API_URL}/{path}") as response:
             self._record_quota(response.headers)
             retry_after = response.headers.get("Retry-After")
             if allow_retry and retry_after is not None and response.status in (403, 429):
-                await asyncio.sleep(float(retry_after))
+                await self._wait(float(retry_after))
                 return await self._request(path, allow_retry=False)
             if not response.ok:
                 raise GitHubError(response.status, path, await response.text())
@@ -139,8 +151,15 @@ class GitHubClient:
             return
         delay = self._reset_at - time.time()
         if delay > 0:
-            await asyncio.sleep(delay)
+            await self._wait(delay)
         self._remaining = self._min_remaining + 1  # Assume the quota refilled.
+
+    async def _wait(self, delay: float) -> None:
+        """Wait for quota only within the configured per-client budget."""
+        if delay < 0 or self._wait_seconds + delay > self._max_wait_seconds:
+            raise GitHubError(429, "rate-limit", f"Wait exceeds the {self._max_wait_seconds:g}-second budget")
+        self._wait_seconds += delay
+        await asyncio.sleep(delay)
 
     def _cache_path(self, path: str) -> Path | None:
         """Maps an API path to a cache file, so ``repos/foo/bar`` becomes ``repos_foo_bar.json``."""

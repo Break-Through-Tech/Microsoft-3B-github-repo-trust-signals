@@ -1,5 +1,11 @@
 # AI Studio Challenge Project Title
 
+## Shared pipeline and CLI
+
+Task 6's reusable consolidation, temporal integration and assessment interface are documented in [docs/task6.md](docs/task6.md).
+Run `uv run gh-signals --help` for terminal commands.
+The CLI and website use the same assessment function; scoring awaits the selected model adapter.
+
 > 💡 **Note for the team:** This is just a template. Update the above title with your AI Studio Challenge Project name. Remove all guidance notes and example text in this template and populate this README with your own content. You can work on this README throughout AI Studio, and get feedback from your AI Studio Coach and Challenge Advisor before finalizing it.  
 
 ---
