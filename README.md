@@ -20,7 +20,9 @@
 
 ## 🎯 **Project Highlights**
 
-**Example:**
+- Analyzed a fixed snapshot of 166 public GitHub repositories.
+- Tested repository age and time since the last push as potential trust signals using logistic regression.
+- Found that repository age became a weaker predictor after adding 30 older repositories selected for maintenance concerns.
 
 - Developed a machine learning model using `[model type/technique]` to address `[challenge project task]`.
 - Achieved `[key metric or result]`, demonstrating `[value or impact]` for `[host company]`.
@@ -117,6 +119,8 @@ We used logistic regression to test repository age and time since the last push 
 ## 📈 **Results & Key Findings**
 
 In a snapshot of 166 GitHub repositories, repository age looked like a strong predictor until we added 30 older repositories selected for maintenance concerns. Recent push activity showed promise, but we selected some comparison repositories because development had slowed or stopped. We need to test that signal on repositories selected independently of their activity.
+
+See the [dataset comparison chart in PR #11](https://github.com/Break-Through-Tech/Microsoft-3B-github-repo-trust-signals/pull/11/files) (`research_milestone1/figures/dataset_versions.png`).
 
 **You might consider describing the following (as applicable):**
 
