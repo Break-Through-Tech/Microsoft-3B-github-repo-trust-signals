@@ -10,7 +10,7 @@
 
 | Name             | GitHub Handle | Contribution                                                             |
 |------------------|---------------|--------------------------------------------------------------------------|
-| Taylor Nguyen    | @taylornguyen | Data exploration, visualization, overall project coordination            |
+| Ethan Kemeny | [@e-kemeny](https://github.com/e-kemeny) | Led exploratory data analysis (EDA) and temporal analysis across 166 GitHub repositories, evaluated maintenance counterexamples, and documented findings with charts in [PR #11](https://github.com/Break-Through-Tech/Microsoft-3B-github-repo-trust-signals/pull/11). |
 | Jordan Ramirez   | @jramirez     | Data collection, exploratory data analysis (EDA), dataset documentation  |
 | Amina Hassan     | @aminahassan  | Data preprocessing, feature engineering, data validation                 |
 | Priya Mehta      | @pmehta       | Model selection, hyperparameter tuning, model training and optimization  |
