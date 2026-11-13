@@ -116,6 +116,8 @@ This is optional but recommended. The [GitHub API client](src/gh_signals/github_
 
 ## 📈 **Results & Key Findings**
 
+In a snapshot of 166 GitHub repositories, repository age looked like a strong predictor until we added 30 older repositories selected for maintenance concerns. Recent push activity showed promise, but we selected some comparison repositories because development had slowed or stopped. We need to test that signal on repositories selected independently of their activity.
+
 **You might consider describing the following (as applicable):**
 
 * Performance metrics (e.g., Accuracy, F1 score, RMSE)
