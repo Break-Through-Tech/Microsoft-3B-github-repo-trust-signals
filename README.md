@@ -1,4 +1,4 @@
-# AI Studio Challenge Project Title
+# GitHub Repository Trust Signals
 
 > 💡 **Note for the team:** This is just a template. Update the above title with your AI Studio Challenge Project name. Remove all guidance notes and example text in this template and populate this README with your own content. You can work on this README throughout AI Studio, and get feedback from your AI Studio Coach and Challenge Advisor before finalizing it.  
 
@@ -80,7 +80,7 @@ This is optional but recommended. The [GitHub API client](src/gh_signals/github_
 
 ## 🏗️ **Project Overview**
 
-**Describe:**
+This Microsoft-sponsored Break Through Tech AI Studio project investigates which signals help developers assess the trustworthiness of public GitHub repositories. We study repository activity, maintenance history, and other public GitHub data to identify signals that can support an assessment and give developers evidence they can inspect.
 
 - How this project is connected to the Break Through Tech AI Program
 - Your AI Studio host company and the project objective and scope
@@ -90,7 +90,7 @@ This is optional but recommended. The [GitHub API client](src/gh_signals/github_
 
 ## 📊 **Data Exploration**
 
-**You might consider describing the following (as applicable):**
+For the preliminary activity analysis, we used a fixed snapshot of 166 public GitHub repositories: 112 known-good repositories and 54 comparison examples. The comparison group included 30 older repositories selected for maintenance concerns. We checked for duplicate repositories and missing metadata, then compared repository age and time since the last push across groups.
 
 * The dataset(s) used: origin, format, size, type of data
 * Data exploration and preprocessing approaches
@@ -105,7 +105,7 @@ This is optional but recommended. The [GitHub API client](src/gh_signals/github_
 
 ## 🧠 **Model Development**
 
-**You might consider describing the following (as applicable):**
+We used logistic regression to test repository age and time since the last push as potential trust signals. We compared model performance across dataset versions to see how adding older repositories with maintenance concerns affected the results. This was a preliminary test of those two signals.
 
 * Model(s) used (e.g., CNN with transfer learning, regression models)
 * Feature selection and Hyperparameter tuning strategies
@@ -132,7 +132,8 @@ In a snapshot of 166 GitHub repositories, repository age looked like a strong pr
 
 ## 🚀 **Next Steps**
 
-**You might consider addressing the following (as applicable):**
+- Validate time since the last push on a new set of repositories selected independently of their recent activity.
+- Include well-maintained repositories with infrequent pushes to test whether the model can distinguish stable projects from abandoned ones.
 
 * What are some of the limitations of your model?
 * What would you do differently with more time/resources?
