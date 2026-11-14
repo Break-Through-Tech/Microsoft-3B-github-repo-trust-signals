@@ -11,7 +11,7 @@
 | Name             | GitHub Handle | Contribution                                                             |
 |------------------|---------------|--------------------------------------------------------------------------|
 | Ethan Kemeny | [@e-kemeny](https://github.com/e-kemeny) | Led exploratory data analysis (EDA) and temporal analysis across 166 GitHub repositories, evaluated maintenance counterexamples, and documented findings with charts in [PR #11](https://github.com/Break-Through-Tech/Microsoft-3B-github-repo-trust-signals/pull/11). |
-| Jordan Ramirez   | @jramirez     | Data collection, exploratory data analysis (EDA), dataset documentation  |
+| Vidal Bickersteth   | [@vidalb1](https://github.com/Vidalb1)   | Manages all Model evaluations and computed logistic regression on the 240+ finalized GitHub Repos and strong features identified, evaluated train test splits (80/20) and calculated precision, F1, and recall scores [M3 #19] [Microsoft 3B Project Board]  |
 | Amina Hassan     | @aminahassan  | Data preprocessing, feature engineering, data validation                 |
 | Priya Mehta      | @pmehta       | Model selection, hyperparameter tuning, model training and optimization  |
 | Chris Park       | @chrispark    | Model evaluation, performance analysis, results interpretation           |
