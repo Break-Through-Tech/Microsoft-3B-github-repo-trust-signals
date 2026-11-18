@@ -1,0 +1,241 @@
+repo,label,label_reason,added_by,source,counterexample_type,last_commit,review_status,notes
+angular/angular,good,verified baseline,3a+3b,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+ansible/ansible,good,verified baseline,3a+3b,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+anthropics/skills,good,verified baseline,3a+3b,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+apache/airflow,good,verified baseline,3a+3b,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+apache/spark,good,verified baseline,3a+3b,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+astral-sh/ruff,good,verified baseline,3a+3b,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+astral-sh/uv,good,candidate: exists and active in last 12 months,3b,candidate_list,none,2026-11-09,human_reviewed,Archive status checked 2026-11-10: not archived; recent push confirmed.
+axios/axios,good,verified baseline,3a,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+Azure/azure-cli,good,verified baseline,3a+3b,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+Azure/azure-functions-host,good,verified baseline,3a+3b,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+Azure/azure-sdk-for-js,good,verified baseline,3a+3b,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+Azure/azure-sdk-for-python,good,verified baseline,3a+3b,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+Azure/bicep,good,verified baseline,3a+3b,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+BurntSushi/ripgrep,good,candidate: exists and active in last 12 months,3b,candidate_list,none,2026-11-09,human_reviewed,Archive status checked 2026-11-10: not archived; recent push confirmed.
+caddyserver/caddy,good,candidate: exists and active in last 12 months,3b,candidate_list,none,2026-11-09,human_reviewed,Archive status checked 2026-11-10: not archived; recent push confirmed.
+charmbracelet/bubbletea,good,verified baseline,3a+3b,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+cli/cli,good,candidate: exists and active in last 12 months,3b,candidate_list,none,2026-11-09,human_reviewed,Archive status checked 2026-11-10: not archived; recent push confirmed.
+ClickHouse/ClickHouse,good,verified baseline,3a,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+curl/curl,good,verified baseline,3a+3b,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+date-fns/date-fns,good,verified baseline,3a,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+dbt-labs/dbt-core,good,verified baseline,3a,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+deepspeedai/DeepSpeed,good,verified baseline,3a+3b,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+denoland/deno,good,verified baseline,3a+3b,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+django/django,good,verified baseline,3a+3b,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+dotnet/aspnetcore,good,verified baseline,3a+3b,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+dotnet/efcore,good,verified baseline,3a+3b,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+dotnet/maui,good,verified baseline,3a+3b,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+dotnet/roslyn,good,verified baseline,3a+3b,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+dotnet/runtime,good,verified baseline,3a+3b,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+dotnet/sdk,good,verified baseline,3a+3b,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+duckdb/duckdb,good,verified baseline,3a,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+elastic/elasticsearch,good,verified baseline,3a+3b,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+encode/django-rest-framework,good,verified baseline,3a,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+encode/httpx,good,candidate: exists and active in last 12 months,3b,candidate_list,none,2026-02-23,human_reviewed,Archive status checked 2026-11-10: not archived; recent push confirmed.
+encode/starlette,good,verified baseline,3a,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+envoyproxy/envoy,good,verified baseline,3a+3b,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+explosion/spaCy,good,verified baseline,3a,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+faker-js/faker,good,verified baseline,3a,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+fastapi/fastapi,good,candidate: exists and active in last 12 months,3b,candidate_list,none,2026-11-09,human_reviewed,Archive status checked 2026-11-10: not archived; recent push confirmed.
+fastify/fastify,good,verified baseline,3a,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+flutter/flutter,good,candidate: exists and active in last 12 months,3a,candidate_list,none,2026-11-09,human_reviewed,Archive status checked 2026-11-10: not archived; recent push confirmed.
+fmtlib/fmt,good,candidate: exists and active in last 12 months,3b,candidate_list,none,2026-11-08,human_reviewed,Archive status checked 2026-11-10: not archived; recent push confirmed.
+freeCodeCamp/freeCodeCamp,good,candidate: exists and active in last 12 months,3a,candidate_list,none,2026-11-09,human_reviewed,Archive status checked 2026-11-10: not archived; recent push confirmed.
+getsentry/sentry,good,verified baseline,3a+3b,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+ggml-org/llama.cpp,good,candidate: exists and active in last 12 months,3b,candidate_list,none,2026-11-10,human_reviewed,Archive status checked 2026-11-10: not archived; recent push confirmed.
+git/git,good,verified baseline,3a+3b,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+gohugoio/hugo,good,verified baseline,3a,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+golang/go,good,verified baseline,3a+3b,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+grafana/grafana,good,verified baseline,3a+3b,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+grpc/grpc,good,verified baseline,3a+3b,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+home-assistant/core,good,verified baseline,3a+3b,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+huggingface/transformers,good,candidate: exists and active in last 12 months,3b,candidate_list,none,2026-11-09,human_reviewed,Archive status checked 2026-11-10: not archived; recent push confirmed.
+jqlang/jq,good,candidate: exists and active in last 12 months,3b,candidate_list,none,2026-11-02,human_reviewed,Archive status checked 2026-11-10: not archived; recent push confirmed.
+junegunn/fzf,good,candidate: exists and active in last 12 months,3b,candidate_list,none,2026-11-07,human_reviewed,Archive status checked 2026-11-10: not archived; recent push confirmed.
+kubernetes/kubernetes,good,verified baseline,3a+3b,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+laravel/framework,good,verified baseline,3a+3b,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+lightgbm-org/LightGBM,good,verified baseline,3a+3b,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+llvm/llvm-project,good,verified baseline,3a+3b,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+microsoft/agent-framework,good,verified baseline,3a+3b,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+microsoft/AI-For-Beginners,good,verified baseline,3a+3b,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+microsoft/autogen,good,verified baseline,3a+3b,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+microsoft/azure-pipelines-agent,good,verified baseline,3a+3b,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+microsoft/BitNet,good,verified baseline,3a+3b,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+microsoft/fluentui,good,verified baseline,3a+3b,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+microsoft/generative-ai-for-beginners,good,verified baseline,3a+3b,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+microsoft/graphrag,good,verified baseline,3a+3b,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+microsoft/kiota,good,verified baseline,3a+3b,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+microsoft/markitdown,good,verified baseline,3a+3b,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+microsoft/ML-For-Beginners,good,verified baseline,3a+3b,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+microsoft/monaco-editor,good,verified baseline,3a+3b,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+microsoft/onnxruntime,good,verified baseline,3a+3b,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+microsoft/PhiCookBook,good,verified baseline,3a+3b,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+microsoft/playwright,good,verified baseline,3a+3b,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+microsoft/PowerToys,good,verified baseline,3a+3b,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+microsoft/promptflow,good,verified baseline,3a+3b,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+microsoft/semantic-kernel,good,verified baseline,3a+3b,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+microsoft/terminal,good,verified baseline,3a+3b,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+microsoft/TypeScript,good,verified baseline,3a+3b,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+microsoft/vscode,good,verified baseline,3a+3b,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+microsoft/Web-Dev-For-Beginners,good,verified baseline,3a+3b,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+microsoft/winget-cli,good,verified baseline,3a+3b,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+microsoftgraph/msgraph-sdk-dotnet,good,verified baseline,3a+3b,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+microsoftgraph/msgraph-sdk-python,good,verified baseline,3a+3b,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+modelcontextprotocol/modelcontextprotocol,good,candidate: exists and active in last 12 months,3b,candidate_list,none,2026-11-09,human_reviewed,Archive status checked 2026-11-10: not archived; recent push confirmed.
+neovim/neovim,good,verified baseline,3a+3b,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+nodejs/node,good,verified baseline,3a+3b,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+numpy/numpy,good,verified baseline,3a+3b,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+ohmyzsh/ohmyzsh,good,candidate: exists and active in last 12 months,3a,candidate_list,none,2026-11-09,human_reviewed,Archive status checked 2026-11-10: not archived; recent push confirmed.
+openai/symphony,good,verified baseline,3a+3b,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+openai/whisper,good,candidate: exists and active in last 12 months,3b,candidate_list,none,2026-08-31,human_reviewed,Archive status checked 2026-11-10: not archived; recent push confirmed.
+openjdk/jdk,good,verified baseline,3a+3b,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+opensearch-project/OpenSearch,good,verified baseline,3a+3b,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+pallets/click,good,verified baseline,3a+3b,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+pallets/flask,good,verified baseline,3a+3b,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+pallets/jinja,good,verified baseline,3a,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+pandas-dev/pandas,good,verified baseline,3a+3b,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+pola-rs/polars,good,verified baseline,3a,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+postgres/postgres,good,verified baseline,3a+3b,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+PowerShell/PowerShell,good,verified baseline,3a+3b,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+pre-commit/pre-commit,good,verified baseline,3a,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+prettier/prettier,good,verified baseline,3a,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+prometheus/prometheus,good,verified baseline,3a+3b,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+protocolbuffers/protobuf,good,verified baseline,3a+3b,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+psf/black,good,verified baseline,3a,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+psf/requests,good,candidate: exists and active in last 12 months,3b,candidate_list,none,2026-10-26,human_reviewed,Archive status checked 2026-11-10: not archived; recent push confirmed.
+pydantic/pydantic,good,verified baseline,3a+3b,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+pydantic/pydantic-ai,good,candidate: exists and active in last 12 months,3b,candidate_list,none,2026-11-09,human_reviewed,Archive status checked 2026-11-10: not archived; recent push confirmed.
+pytest-dev/pytest,good,verified baseline,3a+3b,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+python-attrs/attrs,good,candidate: exists and active in last 12 months,3b,candidate_list,none,2026-11-02,human_reviewed,Archive status checked 2026-11-10: not archived; recent push confirmed.
+python-poetry/poetry,good,verified baseline,3a,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+python/cpython,good,verified baseline,3a+3b,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+pytorch/pytorch,good,verified baseline,3a+3b,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+rails/rails,good,verified baseline,3a+3b,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+react/react,good,verified baseline,3a+3b,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+recommenders-team/recommenders,good,verified baseline,3a+3b,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+redis/redis,good,verified baseline,3a+3b,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+rust-lang/regex,good,candidate: exists and active in last 12 months,3b,candidate_list,none,2026-11-07,human_reviewed,Archive status checked 2026-11-10: not archived; recent push confirmed.
+rust-lang/rust,good,verified baseline,3a+3b,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+rustls/rustls,good,candidate: exists and active in last 12 months,3b,candidate_list,none,2026-11-09,human_reviewed,Archive status checked 2026-11-10: not archived; recent push confirmed.
+scikit-learn/scikit-learn,good,verified baseline,3a+3b,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+scipy/scipy,good,candidate: exists and active in last 12 months,3b,candidate_list,none,2026-11-09,human_reviewed,Archive status checked 2026-11-10: not archived; recent push confirmed.
+serde-rs/serde,good,candidate: exists and active in last 12 months,3b,candidate_list,none,2026-10-15,human_reviewed,Archive status checked 2026-11-10: not archived; recent push confirmed.
+sharkdp/fd,good,candidate: exists and active in last 12 months,3b,candidate_list,none,2026-11-08,human_reviewed,Archive status checked 2026-11-10: not archived; recent push confirmed.
+spring-projects/spring-boot,good,verified baseline,3a+3b,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+sqlalchemy/sqlalchemy,good,verified baseline,3a,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+sqlfluff/sqlfluff,good,candidate: exists and active in last 12 months,3b,candidate_list,none,2026-11-09,human_reviewed,Archive status checked 2026-11-10: not archived; recent push confirmed.
+sveltejs/svelte,good,verified baseline,3a+3b,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+syncthing/syncthing,good,verified baseline,3a,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+tailwindlabs/tailwindcss,good,verified baseline,3a,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+TanStack/query,good,verified baseline,3a,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+tensorflow/tensorflow,good,verified baseline,3a+3b,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+Textualize/rich,good,verified baseline,3a+3b,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+TheAlgorithms/Python,good,candidate: exists and active in last 12 months,3a,candidate_list,none,2026-11-02,human_reviewed,Archive status checked 2026-11-10: not archived; recent push confirmed.
+tokio-rs/tokio,good,candidate: exists and active in last 12 months,3b,candidate_list,none,2026-11-09,human_reviewed,Archive status checked 2026-11-10: not archived; recent push confirmed.
+torvalds/linux,good,verified baseline,3a+3b,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+traefik/traefik,good,verified baseline,3a,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+typescript-eslint/typescript-eslint,good,verified baseline,3a,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+vitest-dev/vitest,good,candidate: exists and active in last 12 months,3b,candidate_list,none,2026-11-09,human_reviewed,Archive status checked 2026-11-10: not archived; recent push confirmed.
+vllm-project/vllm,good,candidate: exists and active in last 12 months,3b,candidate_list,none,2026-11-09,human_reviewed,Archive status checked 2026-11-10: not archived; recent push confirmed.
+vuejs/core,good,verified baseline,3a+3b,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+zed-industries/zed,good,candidate: exists and active in last 12 months,3b,candidate_list,none,2026-11-09,human_reviewed,Archive status checked 2026-11-10: not archived; recent push confirmed.
+zulip/zulip,good,verified baseline,3a,original_team_list,none,,team_verified,From the verified team baseline list. Not individually rechecked.
+666ghj/BettaFish,uncertain,uncertain,3a+3b,original_team_list,other,2026-10-02,auto_checked,
+666ghj/MiroFish,uncertain,uncertain,3b,original_team_list,other,2026-10-02,auto_checked,
+ailyProject/aily-blockly,uncertain,uncertain,3a+3b,original_team_list,other,2026-11-04,auto_checked,
+ajoberstar/gradle-git,uncertain,uncertain,3a,original_team_list,other,2018-10-04,auto_checked,
+aleab/toastify,uncertain,uncertain,3b,other_team_counterexample,low_trust_archived_or_unmaintained,2023-02-02,auto_checked,Counterexample: development_stopped_archived.
+anoma/anoma,uncertain,uncertain,3a+3b,original_team_list,other,2026-04-09,auto_checked,
+astrid-runtime/book,uncertain,uncertain,3a+3b,original_team_list,other,2026-09-08,auto_checked,
+astrid-runtime/handbook,uncertain,uncertain,3a+3b,original_team_list,other,2026-09-08,auto_checked,
+astrid-runtime/sdk-js,uncertain,uncertain,3a+3b,original_team_list,other,2026-08-05,auto_checked,
+bower/bower,uncertain,uncertain,3a,original_team_list,other,2024-10-13,auto_checked,
+boykopovar/AnyPS5,uncertain,uncertain,3a,other_team_counterexample,viral_popularity,2026-11-10,auto_checked,Viral counterexample: test popularity-driven mislabeling.
+cloudflare/computer,uncertain,uncertain,3a,other_team_counterexample,new_org,2026-11-05,auto_checked,New organization-owned repo. Organization ownership is not used as proof.
+cloudflare/moltworker,uncertain,uncertain,3a,other_team_counterexample,new_org,2026-03-29,auto_checked,New organization-owned repo. Organization ownership is not used as proof.
+coco-research/coco,uncertain,uncertain,3a,other_team_counterexample,new_or_small,2026-11-09,auto_checked,New or small repo. Limited history is not a penalty by itself.
+CodebuffAI/freebuff,uncertain,uncertain,3b,original_team_list,other,2026-11-10,auto_checked,
+conventional-changelog-archived-repos/conventional-changelog-angular,uncertain,uncertain,3b,other_team_counterexample,low_trust_archived_or_unmaintained,2016-08-13,auto_checked,Counterexample: deprecated_archived.
+conventional-changelog-archived-repos/conventional-changelog-cli,uncertain,uncertain,3b,other_team_counterexample,low_trust_archived_or_unmaintained,2016-08-23,auto_checked,Counterexample: deprecated_archived.
+conventional-changelog-archived-repos/conventional-recommended-bump,uncertain,uncertain,3b,other_team_counterexample,low_trust_archived_or_unmaintained,2016-08-13,auto_checked,Counterexample: deprecated_archived.
+conventional-changelog-archived-repos/validate-commit-msg,uncertain,uncertain,3b,other_team_counterexample,low_trust_archived_or_unmaintained,2017-08-10,auto_checked,Counterexample: deprecated_archived.
+dRoninFlight/dRonin,uncertain,uncertain,3a,original_team_list,other,2021-06-01,auto_checked,
+Ebony-Vinyl/dsh-our-free-model,uncertain,uncertain,3a,other_team_counterexample,viral_popularity,2026-11-09,auto_checked,Viral counterexample: test popularity-driven mislabeling.
+erdDEVcode/elrondjs,uncertain,uncertain,3a,original_team_list,other,2021-04-28,auto_checked,
+evilhero/mylar,uncertain,uncertain,3b,other_team_counterexample,low_trust_archived_or_unmaintained,2020-12-28,auto_checked,Counterexample: eol_no_longer_supported.
+filecoin-project/go-shared-types,uncertain,uncertain,3a,original_team_list,other,2019-12-18,auto_checked,
+FoolCode/FoOlSlide,uncertain,uncertain,3b,other_team_counterexample,low_trust_archived_or_unmaintained,2017-12-01,auto_checked,Counterexample: no_longer_maintained.
+freestylefly/awesome-gpt-image-2,uncertain,uncertain,3a+3b,original_team_list,other,2026-11-05,auto_checked,
+Gathin23/cleanyourtv,uncertain,uncertain,3a,other_team_counterexample,viral_popularity,2026-11-09,auto_checked,Viral counterexample: test popularity-driven mislabeling.
+HisMax/RedInk,uncertain,uncertain,3a+3b,original_team_list,other,2026-06-30,auto_checked,
+hvdwolf/jExifToolGUI,uncertain,uncertain,3b,other_team_counterexample,low_trust_archived_or_unmaintained,2023-11-25,auto_checked,Counterexample: development_stopped_known_bugs.
+hyperledger-archives/composer,uncertain,uncertain,3b,other_team_counterexample,low_trust_archived_or_unmaintained,2019-08-30,auto_checked,Counterexample: deprecated_archived.
+hyperledger-archives/fabric,uncertain,uncertain,3b,other_team_counterexample,low_trust_archived_or_unmaintained,2018-03-29,auto_checked,Counterexample: historic_read_only.
+hyperledger-archives/sawtooth-core,uncertain,uncertain,3b,other_team_counterexample,low_trust_archived_or_unmaintained,2024-02-01,auto_checked,Counterexample: archived_project.
+INAVFlights/inav,uncertain,uncertain,3a,original_team_list,other,2026-03-02,auto_checked,
+ipfs/go-ipfs-posinfo,uncertain,uncertain,3b,other_team_counterexample,low_trust_archived_or_unmaintained,2023-06-14,auto_checked,Counterexample: no_longer_maintained_no_security_fixes.
+itsfatduck/optimizerDuck,uncertain,uncertain,3a+3b,original_team_list,other,2026-11-05,auto_checked,
+joeseesun/opencli-skill,uncertain,uncertain,3a+3b,original_team_list,other,2026-04-09,auto_checked,
+Junchao-cs/SolarWM,uncertain,uncertain,3a,other_team_counterexample,new_or_small,2026-11-07,auto_checked,New or small repo. Limited history is not a penalty by itself.
+jwplayer/jwplayer,uncertain,uncertain,3b,other_team_counterexample,low_trust_archived_or_unmaintained,2023-05-15,auto_checked,Counterexample: no_longer_maintained.
+k1LoW/serverless-s3-sync,uncertain,uncertain,3b,other_team_counterexample,low_trust_archived_or_unmaintained,2026-01-01,human_reviewed,"Archived by owner Jan 1, 2026 (read-only, screenshot checked). The 2026-01-01 date is the archive date, not a real commit. Keep uncertain."
+kubernetes-retired/kube-batch,uncertain,uncertain,3a,original_team_list,other,2022-07-21,auto_checked,
+LiamGvchi/gc-minimal-zine-poster,uncertain,uncertain,3a+3b,original_team_list,other,2026-08-13,auto_checked,
+linkedin/rest.li,uncertain,uncertain,3b,other_team_counterexample,low_trust_archived_or_unmaintained,2026-07-22,human_reviewed,"Archived by owner Jul 22, 2026 (read-only, screenshot checked). Last real commit 4 months before check. Keep uncertain."
+localstack/localstack,uncertain,uncertain,3a,other_team_counterexample,established_but_inactive,2026-03-23,auto_checked,Established project described as inactive.
+Lolner95/use-kimi-on-cursor,uncertain,uncertain,3a,original_team_list,other,2026-06-16,auto_checked,
+MDX-Tom/gpt-5.6-instruct,uncertain,uncertain,3a+3b,original_team_list,other,2026-10-04,auto_checked,
+microsoft/typescript-tslint-plugin,uncertain,uncertain,3a,original_team_list,other,2022-03-31,auto_checked,
+minio/kes,uncertain,uncertain,3b,other_team_counterexample,low_trust_archived_or_unmaintained,2025-05-27,auto_checked,Counterexample: deprecated_no_maintenance.
+minio/minio,uncertain,uncertain,3a,other_team_counterexample,established_but_inactive,2026-02-12,auto_checked,Established project described as inactive.
+minio/operator,uncertain,uncertain,3b,other_team_counterexample,low_trust_archived_or_unmaintained,2025-10-08,auto_checked,Counterexample: archived_read_only.
+modelcontextprotocol/servers-archived,uncertain,uncertain,3b,other_team_counterexample,low_trust_archived_or_unmaintained,2025-05-28,auto_checked,Counterexample: no_maintenance_no_security_updates.
+Mozilla-B2G/B2G,uncertain,uncertain,3b,other_team_counterexample,low_trust_archived_or_unmaintained,2016-09-06,auto_checked,Counterexample: deprecated_archived.
+Mozilla-B2G/b2g-manifest,uncertain,uncertain,3b,other_team_counterexample,low_trust_archived_or_unmaintained,2016-09-30,auto_checked,Counterexample: deprecated_archived.
+Mozilla-B2G/gaia,uncertain,uncertain,3b,other_team_counterexample,low_trust_archived_or_unmaintained,2016-09-20,auto_checked,Counterexample: deprecated_archived.
+Mozilla-B2G/moztt,uncertain,uncertain,3b,other_team_counterexample,low_trust_archived_or_unmaintained,2015-12-23,auto_checked,Counterexample: deprecated_archived.
+MultiWiii/baseflight,uncertain,uncertain,3a,original_team_list,other,2016-01-06,auto_checked,
+NandhaKishorM/laya,uncertain,uncertain,3a,other_team_counterexample,viral_popularity,2026-11-09,auto_checked,Viral counterexample: test popularity-driven mislabeling.
+NARKOZ/hacker-scripts,uncertain,uncertain,3a,other_team_counterexample,established_but_inactive,2022-08-07,auto_checked,Established project described as inactive.
+nextlevelbuilder/ui-ux-pro-max-skill,uncertain,uncertain,3a+3b,original_team_list,other,2026-11-08,auto_checked,
+nexu-io/html-anything,uncertain,uncertain,3a,other_team_counterexample,new_org,2026-10-13,auto_checked,New organization-owned repo. Organization ownership is not used as proof.
+numman-ali/openskills,uncertain,uncertain,3a+3b,original_team_list,other,2026-01-18,auto_checked,
+op7418/guizang-ppt-skill,uncertain,uncertain,3a,original_team_list,other,2026-10-30,auto_checked,
+OSideMedia/higgsfield-ai-prompt-skill,uncertain,uncertain,3a,other_team_counterexample,new_or_small,2026-10-24,auto_checked,New or small repo. Limited history is not a penalty by itself.
+palantir/tslint,uncertain,uncertain,3a,original_team_list,other,2021-03-25,auto_checked,
+pytest-dev/pytest-incremental,uncertain,uncertain,3a,original_team_list,other,2026-02-05,auto_checked,
+python-hyper/h11,uncertain,uncertain,3b,candidate_list,other,2025-04-24,auto_checked,"Exists, but latest commit is over 12 months old. Kept uncertain."
+QuipNetwork/hashsigs-py,uncertain,uncertain,3a,original_team_list,other,2026-11-03,auto_checked,
+QuipNetwork/hashsigs-rs,uncertain,uncertain,3a,original_team_list,other,2026-11-04,auto_checked,
+QuipNetwork/hashsigs-solidity,uncertain,uncertain,3a,original_team_list,other,2026-11-03,auto_checked,
+QuipNetwork/hashsigs-ts,uncertain,uncertain,3a,original_team_list,other,2025-03-28,auto_checked,
+raga-ai-hub/ragaai-catalyst,uncertain,uncertain,3a+3b,original_team_list,other,2025-05-16,auto_checked,
+request/request,uncertain,uncertain,3a,original_team_list,other,2020-02-11,auto_checked,
+RIAEvangelist/node-ipc,uncertain,uncertain,3a,original_team_list,other,2026-09-07,auto_checked,
+rpm-software-management/yum,uncertain,uncertain,3b,other_team_counterexample,low_trust_archived_or_unmaintained,2021-04-02,auto_checked,Counterexample: deprecated_archived.
+sansan0/TrendRadar,uncertain,uncertain,3b,original_team_list,other,2026-11-05,auto_checked,
+Semmle/SecurityExploits,uncertain,uncertain,3b,other_team_counterexample,low_trust_archived_or_unmaintained,2019-08-15,auto_checked,Counterexample: migrated_archived.
+Semmle/SecurityQueries,uncertain,uncertain,3b,other_team_counterexample,low_trust_archived_or_unmaintained,2019-05-17,auto_checked,Counterexample: deprecated_archived.
+seniorjoinu/ic-stable-memory,uncertain,uncertain,3a,original_team_list,other,2023-05-10,auto_checked,
+SeriousCache/UABE,uncertain,uncertain,3b,other_team_counterexample,low_trust_archived_or_unmaintained,2023-03-15,auto_checked,Counterexample: no_longer_supported_archived.
+shardeum/shardeum,uncertain,uncertain,3a+3b,original_team_list,other,2025-09-14,auto_checked,
+Shopify/dashing,uncertain,uncertain,3a,original_team_list,other,2016-08-01,auto_checked,
+SiliconLabs/mltk,uncertain,uncertain,3b,other_team_counterexample,low_trust_archived_or_unmaintained,2025-08-20,auto_checked,
+spinabot/brigade,uncertain,uncertain,3a+3b,original_team_list,other,2026-11-04,auto_checked,
+spinner-cash/launchtrail,uncertain,uncertain,3a,original_team_list,other,2022-06-18,auto_checked,
+taisly/agent,uncertain,uncertain,3a,original_team_list,other,2026-10-22,auto_checked,
+tenstorrent/tensix-isa-simulator,uncertain,uncertain,3b,other_team_counterexample,low_trust_archived_or_unmaintained,2026-06-01,human_reviewed,"Archived by owner Nov 9, 2026 (read-only, screenshot checked). Last commit about 6 months before check. Keep uncertain."
+the-virtual-brain/tvb-data,uncertain,uncertain,3b,other_team_counterexample,low_trust_archived_or_unmaintained,2024-10-24,auto_checked,Counterexample: deprecated_archived.
+unicity-aos/aos-ce,uncertain,uncertain,3a+3b,original_team_list,other,2026-10-21,auto_checked,
+unicity-sphere/sphere-sdk-connect-example,uncertain,uncertain,3a,other_team_counterexample,new_org,2026-10-21,auto_checked,New organization-owned repo. Organization ownership is not used as proof.
+unionlabs/union,uncertain,uncertain,3a+3b,original_team_list,other,2026-07-25,auto_checked,
+USEPA/TEVA-SPOT-GUI,uncertain,uncertain,3b,other_team_counterexample,low_trust_archived_or_unmaintained,2026-06-24,auto_checked,
+wg/wrk,uncertain,uncertain,3a,other_team_counterexample,established_but_inactive,2021-02-07,auto_checked,Established project described as inactive.
+XBuilderLAB/cheat-on-content,uncertain,uncertain,3a+3b,original_team_list,other,2026-11-09,auto_checked,
+xj-it/three20,uncertain,uncertain,3a,original_team_list,other,2014-05-13,auto_checked,
+xojs/tslint-xo,uncertain,uncertain,3a,original_team_list,other,2021-08-17,auto_checked,
+yuwen-cool/yuwen-publish-precheck,uncertain,uncertain,3a,other_team_counterexample,new_or_small,2026-10-08,auto_checked,New or small repo. Limited history is not a penalty by itself.
+ZhuLinsen/daily_stock_analysis,uncertain,uncertain,3a+3b,original_team_list,other,2026-11-09,auto_checked,
+zmustafa/AzureSupportAgent,uncertain,uncertain,3a,original_team_list,other,2026-11-02,auto_checked,
+saishackclub/projects-archive,uncertain,uncertain,manual_check,web_search_counterexample,low_trust_archived_or_unmaintained,,human_reviewed,"Archived by owner Jul 16, 2023 (read-only, checked on GitHub)."
